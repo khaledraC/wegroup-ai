@@ -2,7 +2,7 @@
 :root{--bg:#090f1d;--surface:#121b2d;--ink:#f5f7fb;--muted:#b1bfd0;--violet:#b78cf9;--mint:#8ae2bc;--gold:#e6cb9b}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Cairo,Tahoma,Arial,sans-serif}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button{cursor:pointer}.wrap{max-width:1180px;margin:auto;padding:0 22px}.nav{height:76px;display:flex;justify-content:space-between;align-items:center;gap:12px}.top{position:sticky;top:0;z-index:20;background:#09101def;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff19}.logo{font-size:26px;font-weight:900;letter-spacing:1px}.logo b{color:var(--violet)}.navlinks{display:flex;gap:20px;font-size:13px;color:#d3d9e5}.navlinks a:hover{color:var(--mint)}.btn{border:0;border-radius:12px;padding:12px 23px;background:linear-gradient(120deg,#a36af5,#6d48c9);color:white;font-weight:800;display:inline-block}.btn.alt{background:transparent;border:1px solid #ffffff65}.hero{min-height:680px;position:relative;display:flex;align-items:center;overflow:hidden;background:radial-gradient(ellipse at 85% 15%,#50316a88,transparent 42%),linear-gradient(130deg,#0b1020,#16253b)}.hero:after{content:"";position:absolute;left:-100px;bottom:-240px;width:650px;height:650px;border:1px solid #ffffff1b;border-radius:50%;box-shadow:0 0 0 65px #ffffff05,0 0 0 130px #ffffff04}.hero .wrap{position:relative;z-index:2;width:100%;display:grid;grid-template-columns:1fr .82fr;align-items:center;gap:45px}.eyebrow{color:var(--mint);letter-spacing:2px;font-size:13px;font-weight:900}.hero h1{font-size:clamp(35px,4.7vw,65px);line-height:1.35;margin:18px 0}.hero h1 em{font-style:normal;color:var(--violet)}.lead{font-size:17px;line-height:2;color:#d4deeb}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.hero-image{height:480px;border-radius:160px 160px 24px 24px;overflow:hidden;position:relative;box-shadow:0 25px 80px #0009;border:1px solid #ffffff3d}.hero-image img{height:100%;width:100%;object-fit:cover}.hero-image .image-label{position:absolute;bottom:0;right:0;left:0;padding:24px;background:linear-gradient(transparent,#000c);font-size:13px}.section{padding:85px 0}.heading{margin:0 0 12px;font-size:clamp(27px,3.5vw,41px)}.sub{color:var(--muted);line-height:2;max-width:780px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:30px}.card{background:linear-gradient(140deg,#172339,#101a2c);border:1px solid #ffffff17;border-radius:22px;padding:26px;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-4px);border-color:#a98af088}.ico{font-size:32px}.card h3{margin:12px 0;font-size:19px}.card p{color:#bdc9d8;font-size:14px;line-height:1.95}.card a{color:var(--mint);font-weight:800;font-size:13px}.band{background:#111b2d}.gallery{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:14px;margin-top:30px}.gallery button{border:0;background:#142033;padding:0;position:relative;border-radius:18px;overflow:hidden;height:255px}.gallery button:first-child{grid-row:span 2;height:524px}.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.gallery button:hover img{transform:scale(1.05)}.gallery span{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#000c);padding:22px;color:white;text-align:right;font-weight:700}.note{font-size:12px;color:#aeb9c8;line-height:1.8}.about{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.panel{border:1px solid #ffffff22;border-radius:25px;padding:35px;background:linear-gradient(130deg,#1b2440,#0e192c)}.panel h3{font-size:24px;margin:0}.panel p{color:#c6d0df;line-height:2}.checks{padding:0;list-style:none}.checks li{padding:9px 0;color:#d2dce8}.checks li:before{content:'✓';color:var(--mint);font-weight:900;margin-left:10px}.cta{background:linear-gradient(110deg,#40225e,#183c46);padding:48px;border-radius:24px;text-align:center}.cta h2{font-size:30px;margin:0 0 10px}.cta p{color:#d9e3ee}footer{border-top:1px solid #ffffff1b;padding:35px 0;color:#aebbd0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.chat-launch{position:fixed;bottom:22px;left:22px;z-index:40;border:0;background:var(--mint);color:#0b1723;border-radius:50px;padding:14px 19px;font-weight:900;box-shadow:0 10px 35px #0009}.chat{position:fixed;bottom:82px;left:22px;width:min(380px,calc(100vw - 32px));height:min(590px,calc(100vh - 120px));z-index:40;background:#f7f9fc;color:#142035;border-radius:20px;box-shadow:0 20px 90px #000b;display:none;flex-direction:column;overflow:hidden;direction:rtl}.chat.open{display:flex}.chat-head{background:#202847;color:white;padding:16px 19px;display:flex;justify-content:space-between;align-items:center}.chat-head small{display:block;color:#c5d0e0}.chat-head button{background:none;border:0;color:white;font-size:23px}.messages{padding:16px;overflow-y:auto;flex:1;background:#f1f4f9}.bubble{padding:11px 14px;border-radius:14px;line-height:1.8;font-size:13px;margin-bottom:10px;max-width:90%;white-space:pre-wrap}.bot{background:white;box-shadow:0 1px 4px #0001}.me{background:#d8f7e8;margin-right:auto}.choices{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;background:white}.choices button{border:1px solid #d6c5f2;background:#f7f2ff;color:#56358d;border-radius:20px;padding:6px 10px;font-size:12px}.chat-form{display:flex;gap:7px;padding:11px;background:white;border-top:1px solid #e3e7ef}.chat-form input{flex:1;min-width:0;border:1px solid #dae0e9;border-radius:10px;padding:10px}.chat-form button{border:0;border-radius:10px;background:#6e49b3;color:white;padding:0 15px}.modal{position:fixed;inset:0;z-index:70;background:#000d;display:none;align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.modal img{max-height:85vh;max-width:95vw;object-fit:contain;border-radius:12px}.modal button{position:absolute;top:20px;left:24px;background:white;border:0;border-radius:50%;font-size:25px;width:42px;height:42px}@media(max-width:850px){.navlinks{display:none}.hero .wrap{grid-template-columns:1fr}.hero{padding:60px 0}.hero-image{height:320px;border-radius:90px 90px 18px 18px}.cards{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:1fr 1fr}.gallery button:first-child{height:255px;grid-row:auto;grid-column:span 2}.about{grid-template-columns:1fr}}@media(max-width:540px){.cards{grid-template-columns:1fr}.gallery button{height:190px}.hero h1{font-size:34px}.section{padding:58px 0}.cta{padding:28px 15px}.chat-launch{bottom:14px;left:14px}}
 </style></head><body>
 <header class="top"><div class="wrap nav"><a href="#home" class="logo">WE <b>GROUP</b></a><nav class="navlinks"><a href="#services">خدماتنا</a><a href="#projects">العقارات</a><a href="#about">من نحن</a><a href="#contact">تواصل معنا</a></nav><button class="btn" onclick="document.getElementById('chat').classList.add('open');showChat(true)">اسأل مساعدنا ✦</button></div></header>
-<main><section class="hero" id="home"><div class="wrap"><div><div class="eyebrow">WE GROUP · FINANCIAL & REAL ESTATE SERVICES</div><h1>كل قراراتك المالية<br><em>تبدأ بخطة أذكى.</em></h1><p class="lead">التأمين، المحاسبة والضرائب، التمويل العقاري، القروض، التقاعد والاستثمار العقاري — خدمات متكاملة بإدارة خالد ريان، من مكتبنا في كابول.</p><div class="actions"><a class="btn" href="#services">اكتشف خدماتنا ←</a><button class="btn alt" onclick="document.getElementById('chat').classList.add('open');showChat(true)">تحدث مع مساعد WE GROUP</button></div><p class="note">خدماتنا المهنية تخضع لفحص ملاءمة فردي؛ لا نضمن نتائج استثمارية أو موافقات تمويلية.</p></div><div class="hero-image"><img src="assets/photo-1.jpg" alt="تصور معماري لمشروع عقاري في باتومي"><div class="image-label">GEORGIA · BATUMI — صور وتصورات مقدمة عن المشروع</div></div></div></section>
+<main><section class="hero" id="home"><div class="wrap"><div><div class="eyebrow">WE GROUP · FINANCIAL & REAL ESTATE SERVICES</div><h1>كل قراراتك المالية<br><em>تبدأ بخطة أذكى.</em></h1><p class="lead">التأمين، المحاسبة والضرائب، التمويل العقاري، القروض، التقاعد والاستثمار العقاري — خدمات متكاملة بإدارة خالد ريان، من مكتبنا في كابول.</p><div class="actions"><a class="btn" href="#services">اكتشف خدماتنا ←</a><button class="btn alt" onclick="document.getElementById('chat').classList.add('open');showChat(true)">تحدث مع مساعد WE GROUP</button></div><p class="note">خدماتنا المهنية تخضع لفحص ملاءمة فردي؛ لا نضمن نتائج استثمارية أو موافقات تمويلية.</p></div><div class="hero-image"><img src="photo-1.jpg" alt="تصور معماري لمشروع عقاري في باتومي"><div class="image-label">GEORGIA · BATUMI — صور وتصورات مقدمة عن المشروع</div></div></div></section>
 <section class="section" id="services"><div class="wrap"><div class="eyebrow">OUR EXPERTISE</div><h2 class="heading">خدماتنا تحت سقف واحد</h2><p class="sub">نرافق الأفراد والعائلات وأصحاب المصالح في قراراتهم المالية، ونساعد على فهم البدائل والتكاليف والمخاطر قبل اتخاذ القرار.</p><div class="cards" id="serviceCards"></div></div></section>
 <section class="section band" id="projects"><div class="wrap"><div class="eyebrow">REAL ESTATE PORTFOLIO</div><h2 class="heading">مشاريع عقارية وفرص قيد الدراسة والتسويق</h2><p class="sub">نتابع فرصًا عقارية في جورجيا، مع اهتمام خاص بمشاريع باتومي وتبليسي. نعرض هنا صور مشروع ORIGAMI المرتبط بتطوير Ambassador Island. أي توافر أو سعر أو صفة تمثيل رسمي يحتاج إلى تأكيد مكتوب من المطور.</p><div class="gallery" id="gallery"></div><p class="note">الصور من المواد التي قدمها صاحب المكتب، وقد تشمل تصورات معمارية وليست تصويرًا لمبانٍ مكتملة. لا يُعد العرض تعهدًا بعائد أو موعد تسليم.</p><div class="actions"><button class="btn" onclick="startService('العقارات والاستثمار')">استفسر عن المشاريع العقارية</button></div></div></section>
 <section class="section" id="about"><div class="wrap about"><div><div class="eyebrow">ABOUT WE GROUP</div><h2 class="heading">خبرة مالية. رؤية متكاملة.</h2><p class="sub">WE GROUP بإدارة خالد ريان — مدقق حسابات ووكيل تأمين، يقدم خدمات مهنية في المحاسبة والتأمين والاستشارات المالية، إلى جانب خدمات التمويل والتسويق العقاري بالتعاون مع الجهات المختصة بحسب الحاجة.</p><ul class="checks"><li>استقبال واستشارة أولية بالعربية والعبرية</li><li>متابعة منظمة لكل طلب</li><li>إحالة الملفات الحساسة إلى المختص المسؤول</li><li>توضيح التكاليف والمخاطر قبل اتخاذ القرار</li></ul></div><div class="panel"><h3>لماذا WE GROUP؟</h3><p>بدل التنقل بين جهات متعددة، تستطيع بدء طلبك من مكان واحد. يساعدك فريق المكتب على ترتيب الخطوات والمستندات والأسئلة المناسبة لكل خدمة، مع الحفاظ على خصوصية بياناتك.</p><p>📍 كابول، إسرائيل<br>☎️ 053-8206174<br>🌐 خدمات محلية واستفسارات استثمار عقاري دولية</p><button class="btn" onclick="document.getElementById('chat').classList.add('open');showChat(true)">ابدأ استفسارك الآن</button></div></div></section>
@@ -25,29 +25,47 @@ try{const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'appl
 catch(e){pending.textContent='تعذر الاتصال بالمساعد الذكي: '+e.message+'\nإذا فتحت ملف HTML مباشرة، يلزم تشغيله عبر الخادم المرفق. للتواصل مع المكتب: 053-8206174.';}finally{busy=false;buttons(services)}}
 $('chatForm').addEventListener('submit',e=>{e.preventDefault();const v=$('chatInput').value;$('chatInput').value='';respond(v)});
 function openImage(src){$('bigImage').src=src;$('modal').classList.add('open')}
-<a id="wegroup-whatsapp"
+const gallery = document.getElementById('gallery');
 
-   href="https://wa.me/972546864115"
+for (let i = 1; i <= 7; i++) {
+
+  const photo = `photo-${i}.jpg`;
+
+  const button = document.createElement('button');
+
+  button.type = 'button';
+
+  button.onclick = () => openImage(photo);
+
+  const img = document.createElement('img');
+
+  img.src = photo;
+
+  img.alt = `صورة مشروع عقاري ${i}`;
+
+  img.loading = 'lazy';
+
+  button.appendChild(img);
+
+  gallery.appendChild(button);
+
+}
+
+</script>
+
+<a href="https://wa.me/972546864115?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7"
 
    target="_blank"
 
    rel="noopener noreferrer"
 
-   style="position:fixed;bottom:95px;right:18px;z-index:9999;background:#25D366;color:white;padding:13px 18px;border-radius:40px;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold;box-shadow:0 4px 16px #0004;">
+   style="position:fixed;bottom:95px;right:18px;z-index:45;background:#25D366;color:white;padding:13px 18px;border-radius:40px;text-decoration:none;font-weight:bold;box-shadow:0 4px 16px #0004;">
 
-  تواصل معنا عبر واتساب 💬
+  💬 تواصل معنا عبر واتساب
 
 </a>
 
-<script>
+</body>
 
-  const whatsappMessage = "مرحباً، وصلت إليكم من موقع WE GROUP وأرغب بالاستفسار عن خدماتكم.";
+</html>
 
-  document.getElementById("wegroup-whatsapp").href =
-
-    "https://wa.me/972546864115?text=" +
-
-    encodeURIComponent(whatsappMessage);
-
-</script>
-</script></body></html>
