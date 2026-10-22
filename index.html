@@ -25,4 +25,29 @@ try{const r=await fetch('/api/chat',{method:'POST',headers:{'Content-Type':'appl
 catch(e){pending.textContent='تعذر الاتصال بالمساعد الذكي: '+e.message+'\nإذا فتحت ملف HTML مباشرة، يلزم تشغيله عبر الخادم المرفق. للتواصل مع المكتب: 053-8206174.';}finally{busy=false;buttons(services)}}
 $('chatForm').addEventListener('submit',e=>{e.preventDefault();const v=$('chatInput').value;$('chatInput').value='';respond(v)});
 function openImage(src){$('bigImage').src=src;$('modal').classList.add('open')}
+<a id="wegroup-whatsapp"
+
+   href="https://wa.me/972546864115"
+
+   target="_blank"
+
+   rel="noopener noreferrer"
+
+   style="position:fixed;bottom:95px;right:18px;z-index:9999;background:#25D366;color:white;padding:13px 18px;border-radius:40px;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold;box-shadow:0 4px 16px #0004;">
+
+  تواصل معنا عبر واتساب 💬
+
+</a>
+
+<script>
+
+  const whatsappMessage = "مرحباً، وصلت إليكم من موقع WE GROUP وأرغب بالاستفسار عن خدماتكم.";
+
+  document.getElementById("wegroup-whatsapp").href =
+
+    "https://wa.me/972546864115?text=" +
+
+    encodeURIComponent(whatsappMessage);
+
+</script>
 </script></body></html>
